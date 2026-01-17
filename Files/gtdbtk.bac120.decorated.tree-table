@@ -1,0 +1,60 @@
+Taxon	No. Expected in Tree	F-measure	Precision	Recall	No. Genomes from Taxon	No. Genome In Lineage	Rogue out	Rogue in
+d__Bacteria	50	1.0000	1.0000	1.0000	50	50		
+p__Proteobacteria	50	1.0000	1.0000	1.0000	50	50		
+c__Gammaproteobacteria	50	1.0000	1.0000	1.0000	50	50		
+o__Burkholderiales	40	1.0000	1.0000	1.0000	40	40		
+o__Enterobacterales	10	1.0000	1.0000	1.0000	10	10		
+f__Burkholderiaceae	40	1.0000	1.0000	1.0000	40	40		
+f__Enterobacteriaceae	10	1.0000	1.0000	1.0000	10	10		
+g__Achromobacter	40	1.0000	1.0000	1.0000	40	40		
+g__Escherichia	10	1.0000	1.0000	1.0000	10	10		
+s__Achromobacter aegrifaciens	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter agilis	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter animicus	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter anxifer	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter arsenitoxydans	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter bronchisepticus_A	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter deleyi	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter deleyi_A	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter denitrificans	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter dolens	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter insolitus	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter insuavis	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter insuavis_A	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter kerstersii	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter marplatensis	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter mucicolens	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter pestifer	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter pestifer_A	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter piechaudii	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter pulmonis	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter pulmonis_A	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter ruhlandii	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp000757485	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp001270295	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp001428845	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp002902905	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp002975275	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp003454835	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp012928505	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp014170305	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp014170335	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter sp900156745	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter spanius	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter spanius_B	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter spanius_C	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter spanius_D	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter veterisilvae	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter xylosoxidans	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter xylosoxidans_B	1	1.0000	1.0000	1.0000	1	1		
+s__Achromobacter xylosoxidans_C	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia albertii	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia coli	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia coli_E	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia fergusonii	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia marmotae	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia ruysiae	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia sp001660175	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia sp002965065	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia sp004211955	1	1.0000	1.0000	1.0000	1	1		
+s__Escherichia sp005843885	1	1.0000	1.0000	1.0000	1	1		

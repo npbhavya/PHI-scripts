@@ -33,3 +33,7 @@ Run the ipynb `Achromobacter_PearsonCorrelations.ipynb`
 
 
 ## Linear mixed models
+Provided as the supplementary Methods, and here in document `Supplementary Methods-LMM.docx`. In this document, summarise the different models tested before selecting the one for the paper. 
+
+The code testing these models is saved to `Achromobacter_LMM.ipynb`. 
+    - Input: saved in Files, `merged_all_data.csv`
