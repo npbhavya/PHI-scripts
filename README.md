@@ -14,6 +14,8 @@ Fig 2D in the manuscript
 
 Run the ipynb `Achromobacter_Phage_genome_Viz.ipynb` in this repo
 - Input: genbank files for the phages
+    - saved to `Files/gbk`
+
 - Output: 
     - Figure in the notebook 
     - `Phage_gene_matrix.csv` contains all-against-all gene similarity scores for all genes across all Achromobacter phages
