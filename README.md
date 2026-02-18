@@ -42,7 +42,7 @@ The code that tests these models is saved in `Achromobacter_LMM.ipynb`.
 ## Longitudinal Variant Analysis
 Table S7 and Table S8 in Supplementary Info
 
-run the ipynb 'Achromobacter_ONT_SNPs_Pipline.ipynb' in this repo
+Run the ipynb `Longitudinal Variant Analysis.ipynb` in this repo
 - Input files; saved in 'Achromobacter ONT SNPs' folder in this repo
 - This pipeline was used to identify and analyse single-nucleotide polymorphisms (SNPs) from Oxford Nanopore Technologies (ONT) sequencing data to investigate within-host variation during infection.
 - Results -
