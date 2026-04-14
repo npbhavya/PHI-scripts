@@ -40,10 +40,47 @@ The code that tests these models is saved in `Achromobacter_LMM.ipynb`.
     - Input: saved in Files, `merged_all_data.csv`
 
 ## Longitudinal Variant Analysis
-Table S7 and Table S8 in Supplementary Info
 
-Run the ipynb `Longitudinal Variant Analysis.ipynb` in this repo
-- Input files; saved in `Longitudinal Variant Analysis` folder in this repo
-- This pipeline was used to identify and analyse single-nucleotide polymorphisms (SNPs) from Oxford Nanopore Technologies (ONT) sequencing data to investigate within-host variation during infection.
-- Results -
-      Saved in Supplementary Tables 7 and 8 in the manuscript 
+This workflow generates:
+
+- **Table S7** — Pairwise SNP distances across the shared callable core genome  
+- **Table S8** — Functionally annotated SNPs between longitudinal isolates  
+
+These results are reported in the **Supplementary Information** of the manuscript.
+
+---
+### Run the Analysis
+- Open and run the ipynb `Longitudinal Variant Analysis.ipynb` in this repo
+---
+### Input Files
+
+Upload all required files to the `Longitudinal Variant Analysis.ipynb` 
+
+| File | Description |
+|---|---|
+| `aura_ref.fasta` | Reference genome used for read mapping and SNP calling |
+| `aura_ref.gff` or `aura_ref.gff3` | Genome annotation required for SNP annotation (Table S8) |
+| `neet.fastq` | Oxford Nanopore reads for T0 isolate |
+| `aura.fastq` | Oxford Nanopore reads for T1 isolate |
+| `cram.fastq` | Oxford Nanopore reads for T2 isolate |
+
+---
+
+### Workflow Overview
+
+1. **Read mapping** — Aligns ONT reads to the *A. insolitus aura* reference genome using minimap2.  
+2. **SNP calling** — Identifies variants using Longshot.  
+3. **SNP filtering** — Retains high-confidence SNPs (`QUAL ≥ 30`, `DP ≥ 20`).  
+4. **Core genome definition** — Identifies regions with sufficient coverage across all isolates and defines the shared callable core genome (~6.4 Mb).  
+5. **Consensus sequence generation** — Generates per-isolate core genome sequences.  
+6. **Pairwise SNP comparison (Table S7)** — Calculates SNP counts and SNP density between isolates.  
+7. **SNP annotation (Table S8)** — Assigns gene context, functional effects, and amino acid changes.  
+
+---
+
+### Output Files
+
+| Output | Description |
+|---|---|
+| `Table_S7.csv` | Pairwise SNP distances: isolate pair, core genome size, SNP count, SNPs per Mb |
+| `Table_S8.csv` | Annotated SNPs: genomic position, gene/locus tag, product annotation, effect, amino acid change |
