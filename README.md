@@ -48,10 +48,9 @@ This workflow generates:
 
 These results are reported in the **Supplementary Information** of the manuscript.
 
----
 ### Run the Analysis
 - Open and run the ipynb `Longitudinal Variant Analysis.ipynb` in this repo
----
+
 ### Input Files
 
 Upload all required files to the `Longitudinal Variant Analysis.ipynb` 
@@ -64,8 +63,6 @@ Upload all required files to the `Longitudinal Variant Analysis.ipynb`
 | `aura.fastq` | Oxford Nanopore reads for T1 isolate |
 | `cram.fastq` | Oxford Nanopore reads for T2 isolate |
 
----
-
 ### Workflow Overview
 
 1. **Read mapping** — Aligns ONT reads to the *A. insolitus aura* reference genome using minimap2.  
@@ -76,11 +73,10 @@ Upload all required files to the `Longitudinal Variant Analysis.ipynb`
 6. **Pairwise SNP comparison (Table S7)** — Calculates SNP counts and SNP density between isolates.  
 7. **SNP annotation (Table S8)** — Assigns gene context, functional effects, and amino acid changes.  
 
----
-
 ### Output Files
 
 | Output | Description |
 |---|---|
 | `Table_S7.csv` | Pairwise SNP distances: isolate pair, core genome size, SNP count, SNPs per Mb |
 | `Table_S8.csv` | Annotated SNPs: genomic position, gene/locus tag, product annotation, effect, amino acid change |
+
