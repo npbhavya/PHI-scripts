@@ -1,7 +1,7 @@
 # PHI-scripts
-A repository to save the scripts run for a paper. 
+A repository to save the scripts run for  Achromobacter phages paper in prep.
 
-Tararseko et al., In prep
+Tararseko, Papudeshi et al., In prep
 
 ## Bacterial genome features visualisation 
 Figure 1B, 1C, 1D and 3
