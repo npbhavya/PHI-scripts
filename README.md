@@ -32,7 +32,7 @@ Run the the ipynb `Achromobacter_PearsonCorrelations.ipynb`
 ## Pearson correlations 
 Figure 4A, Figure S2 Table S6 generation 
 
-Run the ipynb `Achromobacter_PearsonCorrelations.ipynb` 
+Run the ipynb `Achromobacter_Correlations.ipynb` 
 - Input files: saved in `Files` folder in this repo
 - Methods: Spearman correlations with Benjamini-Hochberg correction. 
     Testing for significant associations to infectivity among bacterial and phage tail assocated genes 
