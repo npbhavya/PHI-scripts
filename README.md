@@ -28,18 +28,6 @@ Run the the ipynb `Achromobacter_PearsonCorrelations.ipynb`
 - Input: Input files: saved in `Files/eop_raw_values.csv` folder in this repo
 - Output: Figure in the notebook, containing the log normalised EOP values for each bacteria-phage interaction 
 
-
-## Pearson correlations 
-Figure 4A, Figure S2 Table S6 generation 
-
-Run the ipynb `Achromobacter_Correlations.ipynb` 
-- Input files: saved in `Files` folder in this repo
-- Methods: Spearman correlations with Benjamini-Hochberg correction. 
-    Testing for significant associations to infectivity among bacterial and phage tail assocated genes 
-- Results - 
-    Saved in Supplementary Table 6 in the manuscript
-    Figure 4 in the manuscript
-
 ## Linear mixed models and Linear Regressions
 Provided as the supplementary Methods, and here in the document `Supplementary Methods-LMM.docx`. In this document, summarise the different models tested before selecting the one for the paper. 
 
@@ -47,3 +35,6 @@ Figure 4B and Figure 4C, Figure S3, S4
 
 The code that tests these models is saved in `Achromobacter_LMM.ipynb`. 
     - Input: saved in Files, `merged_all_data.csv`
+
+# Misc 
+Statistics wise, we did try Spearman correaltions too. Run the ipynb `Achromobacter_Correlations.ipynb` 
