@@ -33,8 +33,5 @@ Provided as the supplementary Methods, and here in the document `Supplementary M
 
 Figure 4B and Figure 4C, Figure S3, S4 
 
-The code that tests these models is saved in `Achromobacter_LMM.ipynb`. 
+The code that tests these models is saved in `Achromobacter_LMM_clean.ipynb`. 
     - Input: saved in Files, `merged_all_data.csv`
-
-# Misc 
-Statistics wise, we did try Spearman correaltions too. Run the ipynb `Achromobacter_Correlations.ipynb` 
