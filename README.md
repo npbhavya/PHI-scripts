@@ -28,7 +28,7 @@ Run the the ipynb `Achromobacter_PearsonCorrelations.ipynb`
 - Input: Input files: saved in `Files/eop_raw_values.csv` folder in this repo
 - Output: Figure in the notebook, containing the log normalised EOP values for each bacteria-phage interaction 
 
-## Linear mixed models and Linear Regressions
+## Linear mixed models
 Provided as the supplementary Methods, and here in the document `Supplementary Methods-LMM.docx`. In this document, summarise the different models tested before selecting the one for the paper. 
 
 Figure 4B and Figure 4C, Figure S3, S4 
